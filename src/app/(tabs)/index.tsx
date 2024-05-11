@@ -9,20 +9,25 @@ export default function Index() {
       <Text style={styles.h1}>NPOSE: Non-Profit and Open Source Everything</Text>
       <Text style={styles.h2}>White Paper</Text>
       <Text style={styles.normal}>
-        Non-Profit Open Source Everything is an organization focused on providing users with better internet applications by rejecting the profit
-        first, walled garden approach among the dominant monopolistic internet services. The goals of NPOSE are simple: create internet services for creators and users
-        that are non-profit (as well as capped profit) and open source. A non-profit approach allows NPOSE services to avoid the share holder profit interests that
-        cause other major internet services to make decisions that are bad for their users and creators. The open-source nature of NPOSE projects allows them to be
-        massive collaborative efforts by developers, users, and creators. NPOSE will use a direct democracy voting system to make major organization level decisions
-        and elect representative board members.The advantages of NPOSE services over legacy internet services is not simply in ethics or policies. _______  NPOSE
-        services will never make any profit but that doesn't mean NPOSE services will not generate excess revenue.  In fact NPOSE services will be able to return a
-        larger percentage of revenue to creators and advertisers than their legacy counterparts specifically because NPOSE does not need to take profits.
+        NPOSE (Non-Profit and Open Source Everything) is an organization that will develop a suite of non-profit ant open source internet applications to compete with companies
+        commonly referred to as "big tech". Applications developed by NPOSE will be more fair, equitable, and privacy protecting than competitors. A non-profit, such as NPOSE,
+        is uniquely positioned to win significant market share in this segment because competitors "waste" money by taking profits whereas NPOSE uses excess revenues to provide
+        more value to users, creators, and society. The open-source nature of NPOSE projects allows them to be collaborative efforts among developers, users, and creators in which
+        all can benefit.
+
+        NPOSE will use a direct democracy voting system to make major organization level decisions.
+
+        NPOSE services will not make any profit but that doesn't mean NPOSE services will not generate excess revenue. The advantages of NPOSE services over legacy internet services
+        is not simply in ethics or policies.  In fact NPOSE services will be able to return a larger percentage of revenue to creators and advertisers than competitors specifically
+        because NPOSE does not need to take profits.
       </Text>
       <Spacer height={20} />
       <Text style={styles.normal}>
         <Text style={styles.bold}>Capped Profit: </Text>
-        In order to allow for more rapid expansion of NPOSE organisations, temporary capped profit funding rounds will be allowed. The capped profit organizational
-        model is the ideal way to align the incentives of organiztions, donators (is “investors” ok or bad for legal?), and society as a whole.
+        In order to allow for more rapid expansion of NPOSE organisations, temporary capped profit funding rounds will be allowed. This will allow NPOSE to attract the large investments
+        necessary to create applications at a massive scale, without losing the core non-profit mission of the organization. The capped profit organizational model is the ideal way to
+        align the incentives of organiztions, investors, and society as a whole. After an initial growth period, NPOSE will stop taking capped-profit investments and close the subsidiary
+        upon paying out dividends
       </Text>
       <Spacer height={20} />
       <Text style={styles.normal}>
@@ -34,26 +39,27 @@ export default function Index() {
       <Spacer height={20} />
       <Text style={styles.normal}>
         <Text style={styles.bold}>Wages: </Text>
-        NPOSE follows a unique open source compensation system to legally promise future compensation (if/when a gross margin is achieved) for any open source
-        contributors at a minimum of $25 / hour (adjusted to developer's local economy and inflation). This compensation is not guaranteed unless a gross margin is achieved and is nod provided immediately but rather will be
-        distributed on a rolling and percentage (explain more) basis as soon as NPOSE begins to make a gross margin.
+        NPOSE follows a unique open source compensation system to pay contributors when they contribute code and legally promise future compensation to be disbursed if/when excess revenue is
+        generated.  This compensation is not guaranteed unless excess revenue is achieved and will be distributed on a rolling basis when NPOSE begins to make excess revenue.
       </Text>
       <Spacer height={20} />
       <Text style={styles.normal}>
         <Text style={styles.bold}>NPOSE Market: </Text>
         NPOSE market will be an accessible donation and investment platform that will allow users to give to non-profits and NPOSE capped profits.
-        In addition, users will be able to invest in for-profit business listed in our social impact repository ( change me). NPOSE market enable users to realign
-        global economic incentives towards a collective societal good by creating economic pressure on organizations and business.
+        In addition, users will be able to invest in for-profit business listed in the NPOSE social impact repository. NPOSE market enables users to realign
+        global economic incentives towards a collective societal good by creating positive and negative economic pressure through investment.
       </Text>
       <Spacer height={20} />
       <Text style={styles.bold}>Why NPOSE and why now? </Text>
       <Spacer height={20} />
       <Text style={styles.normal}>
         NPOSE hopes to compete with the currently dominant internet services and win marketshare by cultivating a distinctive user, creator, and worker centric
-        organization. There are many reasons why now is the perfect time for an organization like NPOSE to prosper. Many of top internet services in the world are at
-        inflection points that have alienated their users, creators, and employees as they rake in record profits from selling personal data. These companies must
+        organization. There are many reasons why now is the perfect time for an organization like NPOSE to prosper. Many of the top internet services in the world are at
+        inflection points where they must increase profits to please shareholders and have alienated their users and creators. These companies must
         contiunally increase profits to satisfy investors and have degraded the user and creator experience as a result.
       </Text>
+      <Spacer height={20} />
+      <Text>Note: The phrase excess revenue is used in this document to describe the money a non-profit has left over after paying all operating expenses, otherwise known as operating margin.</Text>
     </ScrollView>
   );
 }
