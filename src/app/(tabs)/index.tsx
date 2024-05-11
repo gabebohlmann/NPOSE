@@ -58,7 +58,7 @@ export default function Index() {
         inflection points where they must increase profits to please shareholders and have alienated their users and creators. These companies must
         contiunally increase profits to satisfy investors and have degraded the user and creator experience as a result.
       </Text>
-      <Spacer height={20} />
+      <Spacer height={50} />
       <Text>Note: The phrase excess revenue is used in this document to describe the money a non-profit has left over after paying all operating expenses, otherwise known as operating margin.</Text>
     </ScrollView>
   );
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     marginVertical: '5%',
   },
   h1: {
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: 'bold',
   },
   h2: {
