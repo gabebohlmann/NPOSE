@@ -14,5 +14,5 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "src/components/VideoPlayer.tsx"
-, "src/old_(tabs)/videoPlayer.jsx", "src/old_(tabs)/expo-av.native.jsx", "src/old_(tabs)/testing.jsx", "src/old_(tabs)/_layout.tsx", "src/old_(tabs)/eav-playlist.jsx"  ]
+, "src/old_(tabs)/videoPlayer.jsx", "src/old_(tabs)/expo-av.native.jsx", "src/old_(tabs)/testing.jsx", "src/old_(tabs)/_layout.tsx", "src/old_(tabs)/eav-playlist.jsx", "src/components/B.jsx"  ]
 }
