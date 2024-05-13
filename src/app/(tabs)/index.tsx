@@ -9,9 +9,10 @@ import RenderHtml from 'react-native-render-html';
 
 const source = {
   html: `
-<h1 style='fontSize:36px; text-align:center; margin: 3% 10% 1% 10%'>
+<h1 style='fontSize:36px; text-align:center; margin: 3% 10% 0% 10%'>
   NPOSE: Non-Profit and Open Source Everything
 </h1>
+<h2 style='fontSize:28px; text-align:center;'>White Paper</h2>
   <p style='fontSize:20px; padding:0 10%; margin: 1%; text-align:justify'>
     &emsp;&ensp;  Non-Profit and Open Source Everything (NPOSE) is an organization that will develop a suite of non-profit and open source internet applications to compete with companies
     commonly known as "big tech". Applications developed by NPOSE will be more equitable, free, and privacy protecting than competitors. A non-profit, such as NPOSE, is uniquely
@@ -69,11 +70,10 @@ export default function App() {
 //       </Text>
 //       <Spacer height={5} />
 //       <Text style={styles.normal}>
-
-// NPOSE’s first product will be a video-on-demand (VOD) streaming application called VidReam. Creators on VidReam will be given a larger percentage of revenue than competitors and will
-// be better protected from improper copyright infringement claims for fair use. User's will have control over how their data is collected and used. A shared governance system will allow
-// users and creators to democratically govern the application. A percentage of net positive revenues will be spent on projects seeking to provide a societal good. Specifics of how this money
-// will be spent will be decided on through the shared governance system.
+//         NPOSE’s first product will be a video-on-demand (VOD) streaming application called VidReam. Creators on VidReam will be given a larger percentage of revenue than competitors and will
+//         be better protected from improper copyright infringement claims for fair use. User's will have control over how their data is collected and used. A shared governance system will allow
+//         users and creators to democratically govern the application. A percentage of net positive revenues will be spent on projects seeking to provide a societal good. Specifics of how this money
+//         will be spent will be decided on through the shared governance system.
 
 //         VidReam will be NPOSE's first application because the “creator economy” of VOD streaming has been identified as the market that is most open to competition. Content creators do not have exclusivity
 //         agreements and have loyal fan bases that will follow them to new platforms. Based on the success and popularity of VidReam, NPOSE will later expand into social media, search, e-commerce, and a social
