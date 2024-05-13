@@ -36,14 +36,15 @@ const source = {
     compensation for their code and promised future compensation to be disbursed when net positive revenue is generated. This investment and labor compensation structure is meant to create a platform that
     can align the short term profit motives of individuals with a longer term vision for good.
   </p>
-  // <b style='fontSize:24px; text-align:center; padding:1% 0 0 0;'>Why NPOSE and why now? </b>
-  // <p style='fontSize:20px; padding:0 10%; margin: 1%; text-align:justify'>
-  //     NPOSE hopes to compete with the currently dominant web applications and win marketshare by cultivating a distinctive user, creator, and worker centric
-  //     organization. There are many reasons why now is the perfect time for an organization like NPOSE to prosper. Many of the top web applications in the world are at
-  //     inflection points where they must increase profits to please shareholders and have alienated their users.
-  // </p>
 `
 };
+
+// <b style='fontSize:24px; text-align:center; padding:1% 0 0 0;'>Why NPOSE and why now? </b>
+// <p style='fontSize:20px; padding:0 10%; margin: 1%; text-align:justify'>
+//     NPOSE hopes to compete with the currently dominant web applications and win marketshare by cultivating a distinctive user, creator, and worker centric
+//     organization. There are many reasons why now is the perfect time for an organization like NPOSE to prosper. Many of the top web applications in the world are at
+//     inflection points where they must increase profits to please shareholders and have alienated their users.
+// </p>
 
 export default function App() {
   const { width } = useWindowDimensions();
